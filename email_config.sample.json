@@ -4,6 +4,6 @@
   "SMTP_FROM": "your_gmail_address@gmail.com",
   "SMTP_HOST": "smtp.gmail.com",
   "SMTP_PORT": 587,
-  "REPORT_EMAIL_TO": "myloginid@gmail.com"
+  "REPORT_EMAIL_TO": "your_gmail_address@gmail.com"
 }
 
