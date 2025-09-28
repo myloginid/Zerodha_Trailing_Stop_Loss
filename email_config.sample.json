@@ -1,0 +1,9 @@
+{
+  "SMTP_USER": "your_gmail_address@gmail.com",
+  "SMTP_PASS": "your_gmail_app_password",
+  "SMTP_FROM": "your_gmail_address@gmail.com",
+  "SMTP_HOST": "smtp.gmail.com",
+  "SMTP_PORT": 587,
+  "REPORT_EMAIL_TO": "myloginid@gmail.com"
+}
+

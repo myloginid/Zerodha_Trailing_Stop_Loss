@@ -1,0 +1,26 @@
+{
+  "accounts": {
+    "acc1": {
+      "api_key": "your_api_key_1",
+      "api_secret": "your_api_secret_1",
+      "user_id": "your_user_id_1",
+      "password": "your_password_1",
+      "totp_secret": "your_totp_secret_1"
+    },
+    "acc2": {
+      "api_key": "your_api_key_2",
+      "api_secret": "your_api_secret_2",
+      "user_id": "your_user_id_2",
+      "password": "your_password_2",
+      "totp_secret": "your_totp_secret_2"
+    },
+    "acc3": {
+      "api_key": "your_api_key_3",
+      "api_secret": "your_api_secret_3",
+      "user_id": "your_user_id_3",
+      "password": "your_password_3",
+      "totp_secret": "your_totp_secret_3"
+    }
+  }
+}
+

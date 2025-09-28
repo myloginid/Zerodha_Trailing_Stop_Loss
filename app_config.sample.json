@@ -1,0 +1,8 @@
+{
+  "chromedriver_path": "",
+  "chrome_headless": true,
+  "selected_accounts": [],
+  "email_config_path": "email_config.json",
+  "report_email_subject": "Daily Holdings & TSL - {date}"
+}
+
