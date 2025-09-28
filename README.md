@@ -8,14 +8,14 @@ This project logs into multiple Zerodha (Kite Connect) accounts once per day, pe
 flowchart TD
   A[accounts.json + app_config.json + email_config.json] --> B[kiteConnect.py]
   B --> C{Need login?}
-  C -- yes --> D[web_login.py\nSelenium login + 2FA]
+  C -- yes --> D[web_login.py<br/>Selenium login + 2FA]
   C -- no --> E
-  D --> E[Persist data\n(data_pipeline.py)]
+  D --> E[Persist data<br/>(data_pipeline.py)]
   E --> F[[Holdings Parquet]]
   E --> G[[Funds Parquet]]
   F & G --> H[(DuckDB View)]
-  H --> I[tsl.py\nCompute TSL signals]
-  H --> J[email_report.py\nBuild HTML report]
+  H --> I[tsl.py<br/>Compute TSL signals]
+  H --> J[email_report.py<br/>Build HTML report]
   I --> J
   J --> K[Send Email]
 ```
